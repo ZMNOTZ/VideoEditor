@@ -1,0 +1,7 @@
+Executable : /Users/emery/AndroidStudio/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/emery/Downloads/VideoEditor-For-Android-master/app/.cxx/cmake/debug/arm64-v8a
+native-lib
+jvmArgs : 
+

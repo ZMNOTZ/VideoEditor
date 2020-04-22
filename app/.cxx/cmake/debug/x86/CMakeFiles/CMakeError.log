@@ -1,0 +1,12 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/emery/Downloads/VideoEditor-For-Android-master/app/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/emery/AndroidStudio/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja" "cmTC_b3f3c"
+[1/2] Building C object CMakeFiles/cmTC_b3f3c.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_b3f3c.dir/testCCompiler.c.o 
+/Users/emery/AndroidStudio/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android18 --gcc-toolchain=/Users/emery/AndroidStudio/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/emery/AndroidStudio/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_b3f3c.dir/testCCompiler.c.o   -c testCCompiler.c
+clang: error: no such file or directory: 'testCCompiler.c'
+clang: error: no input files
+ninja: build stopped: subcommand failed.
+
+

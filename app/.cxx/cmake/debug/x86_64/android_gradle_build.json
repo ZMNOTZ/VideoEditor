@@ -1,0 +1,42 @@
+{
+  "stringTable": {
+    "0": "/Users/emery/Downloads/VideoEditor-For-Android-master/app/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/Users/emery/AndroidStudio/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/emery/AndroidStudio/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/emery/AndroidStudio/android-sdk-macosx/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/emery/AndroidStudio/android-sdk-macosx/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/emery/Downloads/VideoEditor-For-Android-master/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/emery/AndroidStudio/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja -C \"/Users/emery/Downloads/VideoEditor-For-Android-master/app/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/emery/AndroidStudio/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/emery/Downloads/VideoEditor-For-Android-master/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86_64": {
+      "buildCommand": "/Users/emery/AndroidStudio/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja -C \"/Users/emery/Downloads/VideoEditor-For-Android-master/app/.cxx/cmake/debug/x86_64\" native-lib",
+      "buildType": "debug",
+      "toolchain": "876719187",
+      "abi": "x86_64",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/emery/Downloads/VideoEditor-For-Android-master/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/emery/Downloads/VideoEditor-For-Android-master/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "876719187": {
+      "cppCompilerExecutable": "/Users/emery/AndroidStudio/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

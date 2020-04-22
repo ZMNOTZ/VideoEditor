@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/Users/emery/AndroidStudio/android-sdk-macosx/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/emery/AndroidStudio/android-sdk-macosx/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/emery/Downloads/VideoEditor-For-Android-master/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/emery/AndroidStudio/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja -C \"/Users/emery/Downloads/VideoEditor-For-Android-master/app/.cxx/cmake/release/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/emery/AndroidStudio/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/emery/Downloads/VideoEditor-For-Android-master/app/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-x86_64": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/emery/AndroidStudio/android-sdk-macosx/cmake/3.10.2.4988404/bin/ninja -C \"/Users/emery/Downloads/VideoEditor-For-Android-master/app/.cxx/cmake/release/x86_64\" native-lib",
+      "abi": "x86_64",
+      "output": "/Users/emery/Downloads/VideoEditor-For-Android-master/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so"
+    }
+  }
+}
